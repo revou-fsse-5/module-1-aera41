@@ -1,14 +1,15 @@
 ![HI!](https://readme-typing-svg.demolab.com?font=Fira+Code&size=80&pause=1000&color=08D750&vCenter=true&random=false&width=700&height=80&lines=Hi+I'm+Ido!)
 
-![Ido](<assets/WhatsApp Image 2023-10-13 at 9.16.46 PM-1.jpeg>)
+![Ido]![21728303_10210452272607773_6766839070105254677_n](https://github.com/revou-fsse-5/module-1-aera41/assets/157816177/2697970e-a62a-4647-a1b1-6620e2da7dd0)
+
 
 | Platform                                                                                                       | Username                                                |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)       | [curvyblue](https://discordapp.com/users/curvyblue)     |
-| ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)             | [alvidofaisal@gmail.com](mailto:alvidofaisal@gmail.com) |
-| ![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge) | [alvidofaisal](https://instagram.com/alvidofaisal)      |
-| ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)    | [alvidofaisal](https://linkedin.com/alvidofaisal)       |
-| ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)    | [alvidofaisal](https://t.me/alvidofaisal)               |
+| ![Discord](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white&style=for-the-badge)       | [aera41](https://discordapp.com/users/aera41)     |
+| ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)             | [harinisabtu@gmail.com](mailto:hariinisabtu@gmail.com) |
+| ![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge) | [Erwandra Bangun Saputra](https://instagram.com/erwandrabanguns)      |
+| ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)    | [Erwandra Bangun Saputra](https://linkedin.com/erwandrabangunsaputra)       |
+| ![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?logo=telegram&logoColor=white&style=for-the-badge)    | [Erwandra Bangun Saputra](https://t.me/erwandrasaputra)               |
 
 
 
@@ -23,7 +24,7 @@ It's not just about coding for me, but about using tech to make a real differenc
 ---
 
 ## 🌱 **Currently Learning**
-![C](assets/C-00599C_style=for-the-badge&logo=c&logoColor=white.png)![C++](assets/C%252B%252B-00599C_style=for-the-badge&logo=c%252B%252B&logoColor=white.png)![JavaScript](assets/JavaScript-F7DF1E_style=for-the-badge&logo=javascript&logoColor=black.png)![Python](assets/Python-3776AB_style=for-the-badge&logo=python&logoColor=white.png)
+[JavaScript](assets/JavaScript-F7DF1E_style=for-the-badge&logo=javascript&logoColor=black.png)![Python](assets/Python-3776AB_style=for-the-badge&logo=python&logoColor=white.png)
 
 ---
 

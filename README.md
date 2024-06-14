@@ -39,14 +39,7 @@ It's not just about coding for me, but about using tech to make a real differenc
 ### 🛠 **Software & Tools**
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Arch%20Linux-1793D1.svg?style=for-the-badge&logo=Arch-Linux&logoColor=white">
-    <img src="https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=Django&logoColor=white">
-    <img src="https://img.shields.io/badge/IBM%20Watson-BE95FF.svg?style=for-the-badge&logo=IBM-Watson&logoColor=white">
-    <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white">
-    <img src="https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white">
-    <img src="https://img.shields.io/badge/Linux-FCC624?logo=Linux&logoColor=black&style=for-the-badge">
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">
-    <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge">
+     <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge">
 </p>
 
 ---

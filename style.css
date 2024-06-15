@@ -111,7 +111,7 @@ img {
   max-width: 600px;
 }
 
-.bp {
+.gd {
   max-width: 450px;
   text-align: center;
   border-radius: 20px;
@@ -122,16 +122,16 @@ img {
   margin: auto;
 }
 
-.bp h1 {
+.gd h1 {
   font-size: 30px;
 }
 
-.bp p {
+.gd p {
   font-size: 20px;
   padding: 12px;
 }
 
-.bp button {
+.gd button {
   color: white;
   background-color: rgb(0, 0, 0);
   text-align: center;

@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+}
+
+hr {
+  width: 75%;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(71, 100, 111);
+  margin: 0px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(71, 100, 111);
+}
+
+.navbar {
+  margin-left: 100px;
+  margin-right: 100px;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.navbar li {
+  float: right;
+  display: inline;
+}
+
+.navbar li a {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: white;
+  color: rgb(71, 100, 111);
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  padding: 100px;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+img {
+  max-width: 600px;
+}
+
+.about {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 40px;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-content {
+  max-width: 700px;
+}
+
+.program {
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  margin: auto;
+}
+
+.program h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.prog-gallery {
+  display: flex;
+  margin: 50px;
+}
+
+img {
+  max-width: 600px;
+}
+
+.bp {
+  max-width: 450px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  margin: auto;
+}
+
+.bp h1 {
+  font-size: 30px;
+}
+
+.bp p {
+  font-size: 20px;
+  padding: 12px;
+}
+
+.bp button {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.contact {
+  margin: auto;
+  padding: 40px;
+}
+
+.contact-title {
+  margin-left: 200px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+.contact-title h1 {
+  font-size: 50px;
+}
+
+.contact-title p {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.contact-content {
+  height: 50vh;
+  margin-left: 200px;
+  color: white;
+  margin-right: 70px;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.contact-logo {
+  width: 20px;
+}
+
+input[type="text"],
+[type="email"],
+textarea,
+select {
+  width: 95%;
+  display: block;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 95%;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 4px;
+}
+
+.contact-left {
+  flex: 65%;
+}
+
+.contact-right {
+  flex: 35%;
+  padding: 30px;
+}
+
+.socmed {
+  display: flex;
+  gap: 1rem;
+}
+
+.phone,
+.mail {
+  display: flex;
+  gap: 3rem;
+}
+
+footer {
+  color: white;
+  font-size: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin: auto;
+  padding: 15px;
+}

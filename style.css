@@ -1,21 +1,98 @@
+.item1 {
+  grid-area: header;
+}
+.home-item1 {
+  grid-area: home-item1;
+}
+.home-item2 {
+  grid-area: home-item2;
+}
+.about {
+  grid-area: about;
+}
+
+.portfolio {
+  grid-area: portfolio;
+}
+
+.p1 {
+  grid-area: p1;
+}
+
+.p2 {
+  grid-area: p2;
+}
+
+.p3 {
+  grid-area: p3;
+}
+
+.contact {
+  grid-area: contact;
+}
+
+.contact-left {
+  grid-area: contact1;
+}
+
+.contact-right {
+  grid-area: contact2;
+}
+
 * {
   margin: 0;
 }
 
-hr {
-  width: 75%;
-  margin: 0 auto;
+body {
+  background-color: rgb(51, 51, 51);
 }
 
-body {
-  background-color: rgb(71, 100, 111);
-  margin: 0px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "home-item1 home-item2 home-item2 "
+    "about about about"
+    "portfolio portfolio portfolio"
+    "p1 p2 p3"
+    "contact contact contact"
+    "contact1 contact1 contact2";
+  gap: 10px;
+  background-color: rgb(51, 51, 51);
+  padding: 10px;
+}
+
+.home-item1 {
+  padding-left: 200px;
+  padding-top: 90px;
+}
+
+.home-item2 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 20px 0;
+  justify-content: center;
+  max-width: 800px;
+  padding-left: 100px;
+  padding-top: 90px;
+}
+
+.home-item2 p {
+  font-size: 25px;
+}
+
+.item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
 
 .header {
   position: fixed;
   width: 100%;
-  background-color: rgb(71, 100, 111);
+  background-color: rgb(51, 51, 51);
 }
 
 .navbar {
@@ -43,7 +120,7 @@ body {
 
 .navbar li a:hover {
   background-color: white;
-  color: rgb(71, 100, 111);
+  color: rgb(51, 51, 51);
 }
 
 .logo {
@@ -52,31 +129,18 @@ body {
   text-decoration: none;
 }
 
-.home {
-  display: flex;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-  justify-content: center;
-  padding: 100px;
-}
-
-.home-content {
-  max-width: 600px;
-}
-
 img {
   max-width: 600px;
 }
 
 .about {
-  display: flex;
   color: white;
   font-size: 20px;
   justify-content: center;
   text-align: center;
   margin: auto;
   padding: 40px;
+  max-width: 1000px;
 }
 
 .about h1 {
@@ -84,11 +148,7 @@ img {
   font-size: 50px;
 }
 
-.about-content {
-  max-width: 700px;
-}
-
-.program {
+.portfolio {
   color: white;
   font-size: 20px;
   justify-content: center;
@@ -97,21 +157,12 @@ img {
   margin: auto;
 }
 
-.program h1 {
+.portfolio h1 {
   text-align: center;
   font-size: 50px;
 }
 
-.prog-gallery {
-  display: flex;
-  margin: 50px;
-}
-
-img {
-  max-width: 600px;
-}
-
-.bp {
+.p1 {
   max-width: 450px;
   text-align: center;
   border-radius: 20px;
@@ -119,19 +170,79 @@ img {
   border-style: solid;
   border-color: rgb(204, 204, 204);
   border-image: initial;
-  margin: auto;
+  margin-left: 200px;
+  color: white;
 }
 
-.bp h1 {
+.p1 h1 {
   font-size: 30px;
 }
 
-.bp p {
+.p1 p {
   font-size: 20px;
   padding: 12px;
 }
 
-.bp button {
+.p1 button {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.p2 {
+  max-width: 450px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+  color: white;
+}
+
+.p2 h1 {
+  font-size: 30px;
+}
+
+.p2 p {
+  font-size: 20px;
+  padding: 12px;
+}
+
+.p2 button {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.p3 {
+  max-width: 450px;
+  text-align: center;
+  border-radius: 20px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+
+  color: white;
+}
+
+.p3 h1 {
+  font-size: 30px;
+}
+
+.p3 p {
+  font-size: 20px;
+  padding: 12px;
+}
+
+.p3 button {
   color: white;
   background-color: rgb(0, 0, 0);
   text-align: center;
@@ -141,39 +252,18 @@ img {
 }
 
 .contact {
-  margin: auto;
+  margin-left: 200px;
+  color: white;
+  text-align: left;
   padding: 40px;
 }
 
-.contact-title {
-  margin-left: 200px;
-  color: white;
-  font-size: 20px;
-  text-align: left;
-}
-
-.contact-title h1 {
+.contact h1 {
   font-size: 50px;
 }
 
-.contact-title p {
+.contact p {
   font-size: 40px;
-  margin-top: 10px;
-}
-
-.contact-content {
-  height: 50vh;
-  margin-left: 200px;
-  color: white;
-  margin-right: 70px;
-  font-size: 20px;
-  text-align: left;
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.contact-logo {
-  width: 20px;
 }
 
 input[type="text"],
@@ -206,12 +296,14 @@ input[type="submit"] {
 }
 
 .contact-left {
-  flex: 65%;
+  margin-left: 240px;
+  color: white;
 }
 
 .contact-right {
   flex: 35%;
   padding: 30px;
+  color: white;
 }
 
 .socmed {
@@ -222,15 +314,81 @@ input[type="submit"] {
 .phone,
 .mail {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 footer {
+  display: block;
   color: white;
   font-size: 10px;
   justify-content: center;
   text-align: center;
   background-color: rgb(0, 0, 0);
-  margin: auto;
   padding: 15px;
+}
+
+@media only screen and (max-width: 320px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "home-item1 "
+      "home-item2"
+      "about "
+      "portfolio "
+      "p1"
+      "p2"
+      "p3"
+      "contact"
+      "contact1"
+      "contact2";
+    padding: 0px;
+  }
+
+  .home-item1 {
+    padding: 100px;
+  }
+
+  .home-item2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: center;
+    max-width: 800px;
+    padding: 40px;
+    margin: 0px;
+  }
+
+  .p1 {
+    margin-left: 160px;
+  }
+  .p2 {
+    margin-left: 160px;
+  }
+  .p3 {
+    margin-left: 160px;
+  }
+
+  .contact {
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+  }
+  .contact-left {
+    margin-left: 20px;
+    color: white;
+  }
+
+  .contact-right {
+    flex: 35%;
+    padding: 30px;
+    color: white;
+  }
+  footer {
+    width: 100%;
+    justify-content: center;
+  }
 }

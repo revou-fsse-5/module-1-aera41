@@ -44,7 +44,7 @@
 }
 
 body {
-  background-color: rgb(71, 100, 111);
+  background-color: rgb(7, 183, 183);
 }
 
 .grid-container {
@@ -56,9 +56,9 @@ body {
     "program program program"
     "pg1 pg2 pg3"
     "contact contact contact"
-    "contact1 contact1 contact2";
+    "contact1 contact2 contact3";
   gap: 10px;
-  background-color: rgb(71, 100, 111);
+  background-color: rgb(7, 183, 183);
   padding: 10px;
 }
 

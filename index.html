@@ -7,6 +7,7 @@
     <title>Profil Bunda PAUD Kota Surabaya</title>
   </head>
   <body>
+    <main>
     <header class="header">
       <!-- Navbar -->
       <nav class="navbar">
@@ -19,10 +20,9 @@
       </nav>
       <!-- End Navbar -->
     </header>
-    <main>
-      <section id="Awal" class="home">
-        <img src="Asset\kanan.png" alt="" />
-        <div class="home-content">
+    <div class="grid-container">
+      <img id="Awal" class="home-item1" src="Asset\kanan.png" alt="" />
+        <div class="home-item2">
           <h1>Hai, Saya Rini Indriyani, S.Farm, Apt</h1>
           <h2>Salam Kenal, Saya Bunda PAUD Kota Surabaya</h2>
           <br />
@@ -30,12 +30,7 @@
             Salah satu fokus utama Bunda PAUD Surabaya adalah pencegahan stunting, yang merupakan masalah kompleks melibatkan pendidikan, kesehatan, dan pola asuh anak. Saya mengajak semua elemen terkait untuk bergerak bersama dalam upaya pencegahan stunting di Kota Surabaya.
           </p>
         </div>
-      </section>
-      <br />
-      <hr />
-      <br />
-      <section id="About" class="about">
-        <div class="about-content">
+      <div id="About" class="about">
           <h1>Tentang Bunda PAUD</h1>
           <h2>Kota Surabaya</h2>
           <br />
@@ -43,19 +38,14 @@
             visi untuk mengembangkan pendidikan anak usia dini (PAUD) yang holistik dan integratif di Surabaya. Grand design untuk lima tahun ke depan telah disiapkan yang mencakup pembentukan Bunda PAUD tingkat kecamatan dan kelurahan, serta dasar hukum untuk Bunda PAUD holistik integratif
           </p>
         </div>
-      </section>
-      <br />
-      <hr />
-      <br />
-      <section id="Program" class="program">
-        <div class="program-content">
+        <div id="Program" class="program">
           <div class="prog-tittle">
             <h1>Program dan Kegiatan</h1>
           </div>
           <div class="prog-gallery">
             <!-- Peluncuran Buku -->
-            <div class="bp">
-              <img src="Asset/buku.jpg" width="100%" alt="" /><br /><br />
+            <div class="pg1">
+              <img class="foto" src="Asset/buku.jpg" width="100%" alt="" /><br /><br />
               <h1>Peluncuran Buku</h1>
               <br />
               <p>
@@ -64,10 +54,9 @@
               <a href=""><button>More Info</button></a>
             </div>
             <!-- End Peluncuran Buku -->
-
             <!-- Edutrip -->
-            <div class="bp">
-              <img src="Asset/edutrip.jpg" width="100%" alt="" /><br /><br />
+            <div class="pg2">
+              <img class="foto" src="Asset/edutrip.jpg" width="100%" alt="" /><br /><br />
               <h1>Edutrip</h1>
               <br />
               <p>
@@ -76,10 +65,9 @@
               <a href=""><button>More Info</button></a>
             </div>
             <!-- End Edutrip -->
-
             <!-- Pentas Seni -->
-            <div class="bp">
-              <img src="Asset/pensi.jpg" width="100%" alt="" /><br /><br />
+            <div class="pg3">
+              <img class="foto" src="Asset/pensi.jpg" width="100%" alt="" /><br /><br />
               <h1>Pentas Seni</h1>
               <br />
               <p>
@@ -88,56 +76,29 @@
               <a href=""><button>More Info</button></a>
             </div>
             <!-- End Pentas Seni -->
-          </div>
-        </div>
-      </section>
-      <br />
-      <hr />
-      <br />
-      <section id="Contact" class="contact">
-        <div class="contact-title">
+      <div id="Contact" class="contact">
           <h1>Informasi Lebih Lanjut</h1>
           <p>Hubungi Kami</p>
-          <br /><br />
         </div>
-        <div class="contact-content">
-          <!-- Contact Baris Kiri -->
           <div class="contact-left">
             <!-- Form -->
             <form action="" method="get">
               <label for="Name">Nama</label><br />
-              <input
-                type="text"
-                id="Name"
-                name="Name"
-                placeholder="Nama Lengkap"
-              />
-
+              <input type="text" id="Name" name="Name" placeholder="Nama Lengkap" />
               <label for="Email">Email</label><br />
-              <input
-                type="email"
-                id="Email"
-                name="Email"
-                placeholder="Your Email"
-              />
-
+              <input type="email" id="Email" name="Email" placeholder="Your Email" />
               <label for="status">Status </label>
               <select name="status" id="status">
                 <option value="Masyarakat umum">Masyarakat umum</option>
                 <option value="Pendidik">Full Stack</option>
                 <option value="Wali Murid">Game Developer</option>
               </select>
-
               <label for="Messages">Messages</label><br />
               <textarea name="Messages" id="" cols="30" rows="10"></textarea>
               <p class="submit"><input type="submit" value="Submit" /></p>
-              <br /><br />
-              <br />
             </form>
             <!-- End Form -->
           </div>
-
-          <!-- Contact Baris Kanan -->
           <div class="contact-right">
             <!-- Phone -->
             <div class="phone">
@@ -150,9 +111,6 @@
               </div>
             </div>
             <!-- End Phone -->
-
-            <br /><br />
-
             <!-- Email -->
             <div class="mail">
               <div class="contact-logo">
@@ -164,9 +122,6 @@
               </div>
             </div>
             <!-- End Email -->
-
-            <br /><br />
-
             <!-- socmed icon -->
             <div class="socmed">
               <a href="https://www.linkedin.com/in/bundapaudsby/">
